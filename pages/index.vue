@@ -1,45 +1,47 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        portfolio
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <hero/>
+    <service/>
+    <latestWorks/>
+    <experience/>
+    <testimonial/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-export default {}
+import hero from '../components/hero'
+import service from '@/components/service'
+import latestWorks from '@/components/latestWorks'
+import testimonial from '@/components/testimonial'
+import experience from '@/components/experience'
+import Footer from '@/components/Footer'
+export default {
+  components:{
+    hero,
+    service,
+    latestWorks,
+    testimonial,
+    experience,
+    Footer
+  },
+  data() {
+    return{
+
+    }
+  }
+}
 </script>
 
-<style>
-.container {
+<style scoped>
+/*.container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+}*/
 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,

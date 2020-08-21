@@ -1,15 +1,29 @@
 <template>
-  <div>
+  <div class="main">
+    <navBar/>
     <Nuxt />
   </div>
 </template>
 
+<script>
+import navBar from '../components/navBar.vue'
+export default {
+  components:{
+    navBar
+  },
+  data(){
+    return{
+
+    }
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
+  font-size: 26px;
+  word-spacing: 2px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -23,8 +37,15 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+.main {
+  background-color: #1b262c!important;
+  max-width: 100%;
+}
 
-.button--green {
+a {
+  color: red;
+}
+/*.button--green {
   display: inline-block;
   border-radius: 4px;
   border: 1px solid #3b8070;
@@ -51,5 +72,5 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
-}
+}*/
 </style>
