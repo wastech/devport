@@ -62,4 +62,11 @@ a:hover{
 .container{
   max-width: 90%;
 }
+@media only screen and (max-width: 768px) {
+.navbar-brand {
+  font-size: small;
+}
+
+  
+}
 </style>

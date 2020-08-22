@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <b-container-fluid class="bv-example-row">
+    <b-container fluid class="bv-example-row">
       <b-row >
         <b-col sm="6">
           <b-card bg-variant="dark" text-variant="white"  v-for="item in items" v-bind:key="item._id" class="mt-3">
@@ -19,7 +19,7 @@
             <h4>
               <i>Every great design begin with an even better story</i>
             </h4>
-            <p>
+            <p class="discription">
               Welcome to the Dummy Text Generator!
               This handy tool helps you create dummy text for all your layout needs.
               We are gradually adding new functionality and we welcome your suggestions and feedback.
@@ -29,7 +29,7 @@
         </b-col>
 
       </b-row>
-    </b-container-fluid>
+    </b-container>
   </div>
 </template>
 
@@ -94,9 +94,25 @@ h1 {
 }
 h4 {
   color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-stretch: ultra-condensed	;
 }
-p {
+p.discription {
   color: white;
+  font-size: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+   padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: large;
+  font-style: italic;
+  font-weight: 300;
+  font-variant: normal;
+  font-stretch: extra-condensed;
+
 }
 span{
   color: #21bf73;
@@ -104,5 +120,52 @@ span{
 .side{
   text-align: left;
   margin-left: 0.5em !important;
+}
+@media only screen and (max-width: 768px) {
+.col-sm-6{
+  margin-top: -3em !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.7em;
+    margin-top: 0.1em !important;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: medium;
+    font-weight: 600;
+}
+.side[data-v-1e8b94ca] {
+    text-align: left;
+    margin-left: 0.5em !important;
+    margin-top: 1.5em;
+}
+small {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Snell Roundhand, cursive;
+}
+h1 {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 0.6em;
+  font-variant: small-caps;
+  font-family: Snell Roundhand, cursive;
+}
+h4 {
+  color: white;
+  color: white;
+  font-size: x-large;
+  font-weight:500;
+  margin-top: 0.6em;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: Snell Roundhand, cursive;
+}
 }
 </style>

@@ -20,7 +20,7 @@
         <div class="head">
           <p class="p">information</p>
           <p class="street">laaro area ilobu osun state</p>
-          <h4 class="adress">hello@wastech.com</h4>
+          <p class="adress">hello@wastech.com</p>
           <P class="li">services</P>
           <p class="li">works</p>
           <p  class="li">notes</p>
@@ -73,7 +73,7 @@ p.street{
   color: #ffffff;
   font-size: medium;
 }
-h4.adress{
+p.adress{
   color: #ffffff;
   font-weight:inherit;
   margin-top: 0.5em;
@@ -86,6 +86,38 @@ p.li{
 p.li:hover{
   color: #21bf73;
   
+}
+@media only screen and (max-width: 768px) {
+.row{
+  margin-top:1em !important ;
+  
+}
+h4.title{
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: large;
+  font-weight: 550;
+}
+h4.sub-title{
+   color: #ffffff;
+  font-weight: lighter;
+  margin-top: 0.5em;
+   font-size: large;
+  font-weight: 550;
+}
+p.name{
+  color: #ffffff;
+  font-weight: lighter;
+   margin-top: 0.5em;
+   font-size: large;
+  font-weight: 550;
+}
+.float{
+  font-size: small;
+}
+.rightside{
+  margin-left: 0;
+}
 }
 
 </style>
