@@ -1,6 +1,6 @@
 <template>
   <b-container fluid class="bv-example-row mt-5">
-    <div class="title">
+    <div class="title animate__animated animate__slideOutUp">
       latest works
     </div>
     <b-row>

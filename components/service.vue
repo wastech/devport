@@ -2,7 +2,7 @@
   <div class="main">
     <b-container fluid class="bv-example-row">
       <b-row >
-        <b-col sm="6">
+        <b-col sm="6" class="animate__animated animate__fadeInDown">
           <b-card bg-variant="dark" text-variant="white"  v-for="item in items" v-bind:key="item._id" class="mt-3">
             <b-card-text>
               <h2>{{item.title}} <span style="float:right"> <i :class="item.icon"></i></span></h2>
@@ -13,7 +13,7 @@
         </b-col>
 
         <b-col >
-          <div class="side">
+          <div class="side animate__animated animate__fadeInDown">
             <small>introduce</small>
             <h1>Hello! I'm Aremu</h1>
             <h4>

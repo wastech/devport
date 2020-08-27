@@ -3,8 +3,8 @@
 
     <b-row >
       <b-col sm="6" bg-red>
-        <div class="description">
-          <span>{{title}}</span>
+        <div class="description animate__animated animate__backInLeft">
+          <span >{{title}}</span>
           <h1>{{description}}</h1>
           <p>{{text}}</p>
           <a href="#">Let's Chat!</a>
@@ -33,7 +33,7 @@
       </b-col>
 
       <b-col sm="6">
-        <div class="image">
+        <div class="image  animate__animated animate__backInRight">
           <img src="https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg" alt />
         </div>
       </b-col>
@@ -53,12 +53,7 @@ export default {
 </script>
 
 <style  scoped>
-/*.container-fluid {
-  max-width: 100% !important;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
 
-}*/
 .row{
   margin-bottom: 4em;
 }
