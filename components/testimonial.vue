@@ -63,9 +63,6 @@
   font-stretch: extra-condensed;
 
 }
-.container{
-   
-}
 .testimonial {
   border-right: 4px solid #29d18b;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);

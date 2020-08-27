@@ -61,7 +61,9 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     '@nuxtjs/axios',
-    '@neneos/nuxt-animate.css'
+    '@neneos/nuxt-animate.css',
+    ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
+    
   ],
   /*
    ** Axios module configuration

@@ -7,7 +7,7 @@
           <span >{{title}}</span>
           <h1>{{description}}</h1>
           <p>{{text}}</p>
-          <a href="#">Let's Chat!</a>
+          <a href="https://api.whatsapp.com/send?phone=2348137632165">Let's Chat!</a>
         </div>
         
     <div class="combination">
@@ -28,7 +28,7 @@
           <small>PROJECTS COMPLETED </small>
         </div>
       </div>
-      
+    
     </div>
       </b-col>
 

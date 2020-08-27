@@ -10,12 +10,18 @@
 </template>
 
 <script>
-import hero from '../components/hero'
-import service from '@/components/service'
-import latestWorks from '@/components/latestWorks'
-import testimonial from '@/components/testimonial'
-import experience from '@/components/experience'
-import Footer from '@/components/Footer'
+//import hero from '../components/hero'
+const hero = () => import('../components/hero.vue')
+//import service from '@/components/service'
+const service = () => import('../components/service.vue')
+//import latestWorks from '@/components/latestWorks'
+const latestWorks = () => import('../components/latestWorks.vue')
+//import testimonial from '@/components/testimonial'
+const testimonial = () => import('../components/testimonial.vue')
+//import experience from '@/components/experience'
+const experience = () => import('../components/experience.vue')
+//import Footer from '@/components/Footer'
+const Footer = () => import('../components/Footer.vue')
 export default {
   components:{
     hero,

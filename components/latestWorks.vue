@@ -1,10 +1,10 @@
 <template>
-  <b-container fluid class="bv-example-row mt-5">
+  <b-container fluid class="bv-example-row">
     <div class="title animate__animated animate__slideOutUp">
       latest works
     </div>
     <b-row>
-      <b-col sm="6" v-for="item in items" v-bind:key="item">
+      <b-col sm="6" v-for="item in items" v-bind:key="item.id">
         <div>
           <b-card
             overlay
