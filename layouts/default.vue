@@ -1,21 +1,19 @@
 <template>
   <div class="main">
-    <navBar/>
+    <navBar />
     <Nuxt />
   </div>
 </template>
 
 <script>
-//import navBar from '../components/navBar.vue'
+// import navBar from '../components/navBar.vue'
 const navBar = () => import('../components/navBar.vue')
 export default {
-  components:{
+  components: {
     navBar
   },
-  data(){
-    return{
-
-    }
+  data() {
+    return {}
   }
 }
 </script>
@@ -39,8 +37,9 @@ html {
   margin: 0;
 }
 .main {
-  background-color: #1b262c!important;
+  background-color: #1b262c !important;
   max-width: 100%;
+
 }
 
 a {

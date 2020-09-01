@@ -1,44 +1,47 @@
 <template>
- <b-container fluid>
-
-    <b-row >
+  <b-container fluid>
+    <b-row>
       <b-col sm="6" bg-red>
         <div class="description animate__animated animate__backInLeft">
-          <span >{{title}}</span>
-          <h1>{{description}}</h1>
-          <p>{{text}}</p>
-          <a href="https://api.whatsapp.com/send?phone=2348137632165">Let's Chat!</a>
+          <span>{{ title }}</span>
+          <h1>{{ description }}</h1>
+          <p>{{ text }}</p>
+          <a href="https://api.whatsapp.com/send?phone=2348137632165"
+            >Let's Chat!</a
+          >
         </div>
-        
-    <div class="combination">
-      <div class="experience">
-        <div class="head">
-          <h2>12</h2>
-        </div>
-        <div class="year">
-          <small>YEARS EXPERIENCE</small>
-        </div>
-      </div>
 
-      <div class="project">
-        <div class="head1">
-          <h2>165</h2>
+        <div class="combination">
+          <div class="experience">
+            <div class="head">
+              <h2>12</h2>
+            </div>
+            <div class="year">
+              <small>YEARS EXPERIENCE</small>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="head1">
+              <h2>165</h2>
+            </div>
+            <div class="year1">
+              <small>PROJECTS COMPLETED </small>
+            </div>
+          </div>
         </div>
-        <div class="year1">
-          <small>PROJECTS COMPLETED </small>
-        </div>
-      </div>
-    
-    </div>
       </b-col>
 
       <b-col sm="6">
         <div class="image  animate__animated animate__backInRight">
-          <img src="https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg" alt />
+          <img
+            src="https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg"
+            alt
+          />
         </div>
       </b-col>
     </b-row>
- </b-container>
+  </b-container>
 </template>
 <script>
 export default {
@@ -46,16 +49,16 @@ export default {
     return {
       title: 'Soft-Ware Developer',
       description: 'talk is cheap. show the code',
-      text: 'i design and code beautiful simple things. and i love what i do',
+      text: 'i design and code beautiful simple things. and i love what i do'
     }
-  },
+  }
 }
 </script>
 
-<style  scoped>
-
-.row{
+<style scoped>
+.row {
   margin-bottom: 4em;
+
 }
 .description {
   margin-top: 7em;
@@ -77,6 +80,19 @@ h1 {
   margin-top: 0.5em;
   font-stretch: ultra-condensed;
   font-weight: 100;
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 p {
   color: #dddddd;
@@ -90,13 +106,12 @@ img {
   max-width: 100% !important;
   object-fit: cover;
   max-height: 20% !important;
-   height: 21em;
+  height: 21em;
 }
 
 a {
   color: #21bf73;
   border-bottom: 3px solid #21bf73;
-
 }
 h2 {
   color: white !important;
@@ -138,97 +153,93 @@ small {
   margin-top: 1.5em;
 }
 @media only screen and (max-width: 768px) {
-.description {
-  margin-top: 1em;
-  text-align: left !important;
-}
-span {
-  background-color: #21bf73;
-  padding: 8px;
-  font-size: small;
-  text-align: center;
-  color: black;
-  width: 11em;
-  font-weight: bold;
-  border-radius: 0.4em;
-}
-h1 {
-  color: white;
-  padding: 5px;
-  margin-top: 0.5em;
-  font-stretch: ultra-condensed;
-  font-weight: 900;
-  font-size:x-large;
-  width: 100%;
-}
-p {
-  color: #dddddd;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  font-style: italic;
-  font-family: Snell Roundhand, cursive;
-  font-weight: 100;
-    font-size: large;
-}
-a {
-  color: #21bf73;
-  border-bottom: 1px solid #21bf73;
-  font-weight: 500;
-    font-size:medium;
-    
-
-}
-h2 {
-  color: white !important;
-  margin-top: 0.5em;
-  font-size: xx-large;
-}
-small {
-  font-size: medium;
-  color: white;
+  .description {
+    margin-top: 1em;
+    text-align: left !important;
+  }
+  span {
+    background-color: #21bf73;
+    padding: 8px;
     font-size: small;
-}
-.experience {
-  display: flex;
-  width: 8em !important;
-  font-style: italic;
-  font-family: Snell Roundhand, cursive;
-}
-.year {
-  font-size: small;
-  margin-top: 3em;
-  margin-left: 10px;
-  font-style: italic;
-  font-family: Snell Roundhand, cursive;
-}
-.project {
-  display: flex;
-  width: 50em !important;
-  font-style: italic;
-  font-family: Snell Roundhand, cursive;
-}
-.year1 {
-  font-size: small;
-  margin-top: 3em;
-  margin-left: 3px;
-  font-style: italic;
-  font-family: Snell Roundhand, cursive;
-  font-weight: 100;
-}
-.combination {
-  display: flex;
-  margin-top: 0.1em;
-  justify-content:space-around;
-}
-img {
-  margin-top: 1em;
-  max-width: 100% !important;
-  object-fit: cover;
-  max-height: 20% !important;
-   height: 10em;
-   margin-bottom: 0 !important;
-}
-
-  
+    text-align: center;
+    color: black;
+    width: 11em;
+    font-weight: bold;
+    border-radius: 0.4em;
+  }
+  h1 {
+    color: white;
+    padding: 5px;
+    margin-top: 0.5em;
+    font-stretch: ultra-condensed;
+    font-weight: 900;
+    font-size: x-large;
+    width: 100%;
+  }
+  p {
+    color: #dddddd;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+    font-weight: 100;
+    font-size: large;
+  }
+  a {
+    color: #21bf73;
+    border-bottom: 1px solid #21bf73;
+    font-weight: 500;
+    font-size: medium;
+  }
+  h2 {
+    color: white !important;
+    margin-top: 0.5em;
+    font-size: xx-large;
+  }
+  small {
+    font-size: medium;
+    color: white;
+    font-size: small;
+  }
+  .experience {
+    display: flex;
+    width: 8em !important;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+  }
+  .year {
+    font-size: small;
+    margin-top: 3em;
+    margin-left: 10px;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+  }
+  .project {
+    display: flex;
+    width: 50em !important;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+  }
+  .year1 {
+    font-size: small;
+    margin-top: 3em;
+    margin-left: 3px;
+    font-style: italic;
+    font-family: Snell Roundhand, cursive;
+    font-weight: 100;
+  }
+  .combination {
+    display: flex;
+    margin-top: 0.1em;
+    justify-content: space-around;
+  }
+  img {
+    margin-top: 1em;
+    max-width: 100% !important;
+    object-fit: cover;
+    max-height: 20% !important;
+    height: 10em;
+    margin-bottom: 0 !important;
+  }
 }
 </style>

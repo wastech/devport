@@ -6,15 +6,23 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="mx-auto order-0 text-center"  v-for="link in links" v-bind:key="link._id">
-          <b-nav-item > {{link.item}} </b-nav-item>
+        <b-navbar-nav
+          class="mx-auto order-0 text-center"
+          v-for="link in links"
+          v-bind:key="link._id"
+        >
+          <b-nav-item> {{ link.item }} </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item :href="link.social" v-for="link in links" v-bind:key="link._id">
-       <i :class="link.icon"></i>
-           {{link.net}} 
+          <b-nav-item
+            :href="link.social"
+            v-for="link in links"
+            v-bind:key="link._id"
+          >
+            <i :class="link.icon"></i>
+            {{ link.net }}
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -28,19 +36,33 @@ export default {
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css',
-      },
-    ],
+        href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css'
+      }
+    ]
   },
   data() {
     return {
       links: [
-        { item: 'service', icon: 'fab fa-twitter', net: 'twitter' , social:'https://twitter.com/wastech_a'},
-        { item: 'works', icon: 'fab fa-github', net: 'github', social:'https://github.com/wastech' },
-        { item: 'notes',icon:'far fa-envelope', social:'mailto:fataiwasiu2@gmail.com'},
-      ],
+        {
+          item: 'service',
+          icon: 'fab fa-twitter',
+          net: 'twitter',
+          social: 'https://twitter.com/wastech_a'
+        },
+        {
+          item: 'works',
+          icon: 'fab fa-github',
+          net: 'github',
+          social: 'https://github.com/wastech'
+        },
+        {
+          item: 'notes',
+          icon: 'far fa-envelope',
+          social: 'mailto:fataiwasiu2@gmail.com'
+        }
+      ]
     }
-  },
+  }
 }
 </script>
 
@@ -55,18 +77,16 @@ a {
   color: #ffffff !important;
 }
 
-a:hover{
-   color: #21bf73 !important;
+a:hover {
+  color: #21bf73 !important;
 }
 
-.container{
+.container {
   max-width: 90%;
 }
 @media only screen and (max-width: 768px) {
-.navbar-brand {
-  font-size: small;
-}
-
-  
+  .navbar-brand {
+    font-size: small;
+  }
 }
 </style>
