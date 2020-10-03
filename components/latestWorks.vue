@@ -1,15 +1,17 @@
 <template>
   <b-container class="bv-example-row">
-    <div class="title animate__animated animate__slideOutUp">latest works</div>
+    <div class="title ">latest works</div>
     <b-row>
       <b-col sm="4" v-for="item in items" v-bind:key="item.id">
         <div>
          <div class="card" >
-  <img :src="item.image" class="" alt="">
+           <a :href="item.link">
+  <img :src="item.image"  class="" alt="">
+  </a>
   <div class="card-body">
-    <h5 class="title1">Card title</h5>
-    <p class="text">Some quick example text to build on ththe bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">view project</a>
+    <h1 class="title1">{{item.title}}</h1>
+    <p class="text">{{item.description}}</p>
+
   </div>
 </div>
         </div>
@@ -24,27 +26,40 @@ export default {
     return {
       items: [
         {
-          title: 'Soft-Ware Developer',
-          image: 'https://picsum.photos/1000/500/?image=3',
-          project: '20',
-          icon: 'fab fa-twitter',
+          title: 'MEVN-Blog App',
+          image: '/port1.PNG',
+          link:'https://mevnblog.herokuapp.com/',
           description:
-            'this is the first ever nuxtjs app to carry out and i also really enjoy it',
+            'Mevnblogapp is a well functioning  website, built with Node, Expressjs, Vuejs and Mongodb',
         },
         {
-          title: 'Soft-Ware Developer',
-          image: 'https://picsum.photos/1000/500/?image=3',
-          project: '20',
-          icon: 'fab fa-twitter',
-          language: 'javascript javascript',
+          title: 'dev-portfolio',
+          image: '/port2.PNG',
+          link:'http://devport.wastech.now.sh/',
+          description:'dev-portfolio is a simple, minimal portfolio for developers, built with Vuejs',
         },
         {
-          title: 'Soft-Ware Developer',
-          image: 'https://picsum.photos/1000/500/?image=3',
-          project: '20',
-          icon: 'fab fa-twitter',
-          language: 'javascript javascript',
+          title: 'chat-app',
+          image: '/port3.PNG',
+          link:'https://github.com/wastech/chatapp',
+          description:
+            'Realtime chat app with rooms, built with express and socket.io',
         },
+         {
+          title: 'quize-app',
+          image: '/port4.PNG',
+           link:'https://github.com/wastech/quize-app',
+           description:
+            'a Quiz App  built with HTML, CSS, and JavaScript',
+        },
+         {
+          title: 'vue-music app',
+          image: '/port5.PNG',
+          link:'https://vuemusicapp.netlify.app/',
+          description:
+            '  built with vuejs',
+         }
+
       ],
     }
   },
@@ -54,7 +69,7 @@ export default {
 .container {
   max-width: 100% !important;
   width: 100%;
-  margin-top: 1em;
+
 }
 .title {
   color: white;
@@ -63,42 +78,30 @@ export default {
   font-size: 2.5em;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
+  margin-top: 1em;
 }
 .card{
      background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
 }
 .title1 {
-  font-size: medium;
+  font-size: large;
   color: red;
   text-shadow: 0px 10px 10px #234D3C;
-  background: #0e8dbc;
   color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 }
 .text{
    font-size: large;
-  color: red;
+  color: #fff;
   text-shadow: 0px 10px 10px #234D3C;
 }
 img {
-  object-fit: cover;
-  height: 13em !important;
+object-fit: cover;
   width: 100% !important;
+  height: 15vh;
 }
 
-.col-sm-6 {
-  margin-bottom: 6em;
+.col-sm-4 {
+  margin-bottom: 2em;
 }
 h1 {
   color: red;
@@ -108,10 +111,10 @@ h1 {
 @media only screen and (max-width: 768px) {
   .container {
     max-width: 95% !important;
-    margin-top: -6em;
+ margin-top: -1em;
   }
-  .col-sm-6 {
-  margin-bottom: 2em;
+  .card {
+  margin-bottom: 1em !important;
   }
   .title {
     color: white;
@@ -119,11 +122,13 @@ h1 {
     font-variant: small-caps;
     font-size: 1.5em;
     font-stretch: extra-condensed;
-    margin-bottom: 2em;
-    margin-top: -3em;
+    margin-top: 0.2em;
+
   }
+  .col-sm-4 {
+  margin-bottom: 0.5em;
+}
   img {
-  object-fit: cover;
   height: 30% !important;
   width: 100% !important;
 }

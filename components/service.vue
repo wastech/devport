@@ -24,15 +24,19 @@
         <b-col>
           <div class="side animate__animated animate__fadeInDown">
             <small>introduce</small>
-            <h1>Hello! I'm Aremu</h1>
+            <h1> <code>Hello! I'm Aremu</code></h1>
             <h4>
               <i>Every great design begin with an even better story</i>
             </h4>
             <p class="discription">
-              Welcome to the Dummy Text Generator! This handy tool helps you
-              create dummy text for all your layout needs. We are gradually
-              adding new functionality and we welcome your suggestions and
-              feedback. Please feel free to send us any additional dummy texts.
+              I am a tech enthusiast with a flair for exploring new technologies.
+               I strongly recognize that efficient communication between team
+               members is the holy grail of true team success.
+                highly motivated team player with analytical, critical thinking
+                 and problem solving skills, I am always looking for opportunities
+                  to gain relevant
+                experience by handling challenging roles within diverse teams to contribute
+                immense strategic value
             </p>
           </div>
         </b-col>
@@ -55,16 +59,16 @@ export default {
     return {
       items: [
         {
-          title: 'Soft-Ware Developer',
-          description: 'create digital product with unique ideas',
-          project: '20',
-          icon: 'fab fa-twitter'
+          title: 'Full stack software Developer',
+          description: 'I was responsible for building real life application web development and design, building backend APIs with nodejs framework and express library. I also worked on building frontend applications with vuejs framework',
+          project: '15',
+          icon: "fas fa-code"
         },
         {
-          title: 'Soft-Ware Developer',
-          description: 'create digital product with unique ideas',
-          project: '20',
-          icon: 'fab fa-twitter'
+          title: 'Back End Devloper',
+          description: 'I am a proficient back-end web developer for over 3 years with healthy skill sets in JavaScript, Express js, Node js,Mongodb,sequelize, and python programming language.',
+          project: '15',
+          icon: 'fas fa-database'
         }
       ]
     }
@@ -94,10 +98,11 @@ p {
   font-size: medium;
 }
 small {
-  color: white;
+  color: #eeeeee;
 }
 h1 {
   color: white;
+  margin-top: 0.5em;
 }
 h4 {
   color: white;
@@ -119,6 +124,7 @@ p.discription {
   font-weight: 300;
   font-variant: normal;
   font-stretch: extra-condensed;
+
 }
 span {
   color: #21bf73;
@@ -129,6 +135,25 @@ span {
 
 }
 @media only screen and (max-width: 768px) {
+  h4 {
+  color: white;
+
+  font-size: larger;
+  font-style: oblique;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-stretch: ultra-condensed;
+}
+  p.discription {
+  color: white;
+  font-size: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 300;
+  font-variant: normal;
+  font-stretch: extra-condensed;
+
+}
   .col-sm-6 {
     margin-top: -3em !important;
   }
@@ -138,13 +163,10 @@ span {
     padding: 0.7em;
     margin-top: 0.1em !important;
   }
-  a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: medium;
-    font-weight: 600;
-  }
+  p {
+     margin-top: 0;
+     margin-bottom: 1rem !important;
+}
   .side[data-v-1e8b94ca] {
     text-align: left;
     margin-left: 0.5em !important;

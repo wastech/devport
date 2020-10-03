@@ -35,7 +35,6 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-
   ],
   /*
    ** Auto import components
@@ -63,7 +62,7 @@ export default {
     '@nuxtjs/axios',
     '@neneos/nuxt-animate.css',
     ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
-    
+
   ],
   /*
    ** Axios module configuration

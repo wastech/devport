@@ -14,7 +14,7 @@
         <div class="combination">
           <div class="experience">
             <div class="head">
-              <h2>12</h2>
+              <h2>3</h2>
             </div>
             <div class="year">
               <small>YEARS EXPERIENCE</small>
@@ -23,7 +23,7 @@
 
           <div class="project">
             <div class="head1">
-              <h2>165</h2>
+              <h2>15</h2>
             </div>
             <div class="year1">
               <small>PROJECTS COMPLETED </small>
@@ -47,9 +47,9 @@
 export default {
   data() {
     return {
-      title: 'Soft-Ware Developer',
+      title: 'Javascript Developer',
       description: 'talk is cheap. show the code',
-      text: 'i design and code beautiful simple things. and i love what i do'
+      text: 'I was responsible for building real life application web development and design, building backend APIs with nodejs framework and express library'
     }
   }
 }

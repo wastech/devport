@@ -1,59 +1,58 @@
 <template>
   <div class="container">
-    <div class="title">experiences</div>
-    <h3 class="card-title">Timeline Style</h3>
+    <div class="title1">experiences</div>
     <div class="row">
       <div class="col-md-12">
         <div class="main-timeline3">
           <div class="timeline">
             <div class="timeline-icon">
-              <span class="year">2018</span>
+              <span class="year">2020</span>
             </div>
             <div class="timeline-content">
-              <h3 class="title">Web Desginer</h3>
+              <h3 class="title">Uniosun Data Science Lead</h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem
-                erat.
+                I was among the volounteer developers Organising and conducting the
+                Osogbo Data science Community with the aims of cater for and training
+                over 2 thousand students across the State.
+
               </p>
             </div>
           </div>
           <div class="timeline">
             <div class="timeline-icon">
-              <span class="year">2017</span>
+              <span class="year">2019</span>
             </div>
             <div class="timeline-content">
-              <h3 class="title">Web Developer</h3>
+              <h3 class="title">Professional Freelancer[Fiverr,Upwork,etc]</h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem
-                erat.
+                I am working as a MEVN developer freelancer from last 2 years. I do the required task assigned by client to best of my abilities
               </p>
             </div>
           </div>
           <div class="timeline">
             <div class="timeline-icon">
-              <span class="year">2016</span>
+              <span class="year">2019</span>
             </div>
             <div class="timeline-content">
-              <h3 class="title">Web Desginer</h3>
+              <h3 class="title">Macrowareltd Frontend Developer</h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem
-                erat.
+               Macrowareltd is the leading nigeria IT company focused on innovation,
+                because w believe the future we all anticipate starts in africa
+
               </p>
             </div>
           </div>
           <div class="timeline">
             <div class="timeline-icon">
-              <span class="year">2015</span>
+              <span class="year">2020</span>
             </div>
             <div class="timeline-content">
-              <h3 class="title">Web Developer</h3>
+              <h3 class="title"> full-stack-Developer @OIChub</h3>
               <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem
-                erat.
+                OIC hub is an IT Hub in Nigeria having location in Osogbo, Ibadan and Lagos. We offer consultancy and training services in digital skills.
+                 Our area includes; website development, mobile app development,
+                 software development, AI & data science, smart teacher training & kids tech club. We are your to-go digital skill trainer.
+
               </p>
             </div>
           </div>
@@ -67,27 +66,17 @@
   overflow: hidden;
   position: relative;
 }
-.title {
+.title1 {
   color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
   font-size: 2.5em;
   font-stretch: extra-condensed;
+  text-shadow: 0px 10px 10px #234D3C;
   margin-top: 1em;
-  color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 }
+
+
 
 .main-timeline3 .timeline {
   position: relative;
@@ -271,16 +260,15 @@
     margin-top: 0;
     overflow: hidden;
   }
-  .title {
-    color: white;
-    font-family: Trattatello, fantasy;
-    font-variant: small-caps;
-    font-size: 1.5em;
-    font-stretch: extra-condensed;
-  }
-  .row {
-    margin-top: -3em;
-  }
+  .title1 {color: white;
+  font-family: Trattatello, fantasy;
+  font-variant: small-caps;
+  font-size: 2.5em;
+  font-stretch: extra-condensed;
+  text-shadow: 0px 10px 10px #234D3C;
+  margin-top: 0.1em;
+}
+
   .main-timeline3 .timeline:before,
   .main-timeline3 .timeline:nth-child(2n):before {
     box-shadow: none;

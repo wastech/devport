@@ -1,26 +1,21 @@
 <template>
   <section class="testimonial-section">
     <div class="container">
-      <div class="title">latest works</div>
-      <div class="row text-center ">
-        <div class="col-12">
-          <div class="h2">Testimonial</div>
-        </div>
-      </div>
+      <div class="title1">Testimonials</div>
       <div class="row">
         <div class="col-md-12">
           <div id="testimonial-slider" class="owl-carousel">
             <div class="testimonial">
               <div class="pic">
                 <img
-                  src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+                  src="/festus.jpeg"
                 />
               </div>
               <p
                 class="description"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.</p>
-              <h3 class="title">Jessica</h3>
-              <small class="post">- Archietect</small>
+              > Wastech is very conscientious and fixed the bugs in our websites</p>
+              <h3 class="title">Ogundele festus</h3>
+              <small class="post">software developer</small>
             </div>
 
             <div class="testimonial">
@@ -31,9 +26,9 @@
               </div>
               <p
                 class="description"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.</p>
-              <h3 class="title">Pearl</h3>
-              <small class="post">- Engineer</small>
+              >Great experience as always this guy is has been a delight to work with I highly recommend this guy gigs quality of work is outstanding will use again and will continue to use service as service is net to none. 10/10 quality 100%</p>
+              <h3 class="title">@Tomiwa</h3>
+              <small class="post">Web developer</small>
             </div>
 
             <div class="testimonial">
@@ -44,9 +39,9 @@
               </div>
               <p
                 class="description"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.</p>
-              <h3 class="title">Kellie</h3>
-              <small class="post">- Graphic Designer</small>
+              >wastech is very fast and understands exactly what I wanted. Very happy with their work and I will happily use again. Thanks for the great service and super quick response.</p>
+              <h3 class="title">@Toyyib</h3>
+              <small class="post">Web developer</small>
             </div>
           </div>
         </div>
@@ -55,25 +50,14 @@
   </section>
 </template>
 <style scoped>
-.title {
+.title1 {
   color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
   font-size: 2.5em;
   font-stretch: extra-condensed;
-  color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+  text-shadow: 0px 10px 10px #234D3C;
+  margin-top: 0.1em;
 
 }
 .testimonial {

@@ -1,4 +1,4 @@
-<template> 
+<template>
   <b-container fluid class="bv-example-row">
     <b-row>
       <b-col>
@@ -9,7 +9,7 @@
               started by <span class="sayHi">say hi!</span>
             </h4>
             <p class="name">
-              wastec <span class="float"> &copy; all right reserve</span>
+              Abdulfatai Abdulwasiu
             </p>
           </div>
         </div>
@@ -19,16 +19,25 @@
         <div class="rightside">
           <div class="leftside">
             <div class="head">
-              <p class="p">information</p>
-              <p class="street">laaro area ilobu osun state</p>
-              <p class="adress">hello@wastech.com</p>
-              <P class="li">services</P>
+              <h1 class="p">information</h1>
+              <p class="street"> Main Campus, Oke Bale Street, Area 210001, Osogbo</p>
+              <p class="adress">fataiwasiu2@gmail.com</p>
+              <p class="li">services</p>
               <p class="li">works</p>
               <p class="li">notes</p>
               <p class="li">contact</p>
-              <p style="color:white;">
-                wastec <span class="float"> &copy; all right reserve</span>
-              </p>
+              <span>
+                <a href="https://twitter.com/wastech_a">
+                <i class="fab fa-twitter"></i></a>
+                <a href="mailto:fataiwasiu2@gmail.com">
+               <i class="fas fa-envelope-square"></i></a>
+               <a href="https://github.com/wastech">
+                <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abdulfatai-abdulwasiu-370582111/">
+                <i class="fab fa-linkedin-in"></i></a>
+
+              </span>
+
             </div>
           </div>
         </div>
@@ -44,6 +53,10 @@
 h4.title {
   color: #ffffff;
   font-weight: lighter;
+}
+.fab, .fas{
+  color: white;
+  margin-left: 1em;
 }
 h4.sub-title {
   color: #ffffff;
@@ -65,9 +78,9 @@ span.sayHi {
 .rightside {
   margin-left: 5em;
 }
-p.p {
+h1.p {
   color: #ffffff;
-  font-size: medium;
+  font-size: large;
 }
 p.street {
   color: #ffffff;
