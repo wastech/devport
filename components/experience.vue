@@ -11,8 +11,8 @@
             <div class="timeline-content">
               <h3 class="title">Uniosun Data Science Lead</h3>
               <p class="description">
-                I was among the volounteer developers Organising and conducting the
-                Osogbo Data science Community with the aims of cater for and training
+                I was among the volunteer developers Organising and conducting the
+                Osogbo Data science Community with the aims of catering and training
                 over 2 thousand students across the State.
 
               </p>

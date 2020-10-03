@@ -20,7 +20,7 @@
           <div class="leftside">
             <div class="head">
               <h1 class="p">information</h1>
-              <p class="street"> Main Campus, Oke Bale Street, Area 210001, Osogbo</p>
+              <p class="street"> Main Campus, Oke Baale Street, Area 210001, Osogbo</p>
               <p class="adress">fataiwasiu2@gmail.com</p>
               <p class="li">services</p>
               <p class="li">works</p>

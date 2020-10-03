@@ -21,7 +21,7 @@
             <div class="testimonial">
               <div class="pic">
                 <img
-                  src="https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+                  src="/tomiwa.jpg"
                 />
               </div>
               <p
@@ -34,7 +34,7 @@
             <div class="testimonial">
               <div class="pic">
                 <img
-                  src="https://images.pexels.com/photos/531139/pexels-photo-531139.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+                  src="/toheeb.jpg"
                 />
               </div>
               <p
@@ -151,11 +151,14 @@ p.description {
 }
 @media only screen and (max-width: 768px) {
  .title{
-  color: white;
+   color: white;
   font-family: Trattatello, fantasy;
-  font-variant: small-caps	;
-  font-size: 1.5em;
-  font-stretch: extra-condensed	;
+  font-variant: small-caps;
+  font-size: 2em;
+  font-stretch: extra-condensed;
+  text-shadow: 0px 10px 10px #234D3C;
+  margin-top: 0.1em;
 }
+
 }
 </style>

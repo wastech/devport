@@ -50,14 +50,14 @@ export default {
           image: '/port4.PNG',
            link:'https://github.com/wastech/quize-app',
            description:
-            'a Quiz App  built with HTML, CSS, and JavaScript',
+            'A Quiz App  built with HTML, CSS, and JavaScript',
         },
          {
           title: 'vue-music app',
           image: '/port5.PNG',
           link:'https://vuemusicapp.netlify.app/',
           description:
-            '  built with vuejs',
+            ' Built with vuejs',
          }
 
       ],
