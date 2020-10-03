@@ -150,7 +150,7 @@ p.description {
   }
 }
 @media only screen and (max-width: 768px) {
- .title{
+ .title1{
    color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
