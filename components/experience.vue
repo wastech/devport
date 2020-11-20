@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="title1">experiences</div>
+    <div class="title1"><h3> experiences </h3></div>
     <div class="row">
       <div class="col-md-12">
         <div class="main-timeline3">
@@ -70,7 +70,7 @@
   color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: xx-large;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
   margin-top: 1em;
@@ -165,14 +165,14 @@
 }
 
 .main-timeline3 .title {
-  font-size: 20px;
+  font-size: large;
   font-weight: 700;
   color: #fff;
   margin: 0 0 10px;
 }
 
 .main-timeline3 .description {
-  font-size: 16px;
+  font-size: small;
   color: #fff;
   line-height: 24px;
   margin: 0;
@@ -260,15 +260,15 @@
     margin-top: 0;
     overflow: hidden;
   }
-  .title1 {color: white;
+  .title1 {
+  color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: xx-large;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
-  margin-top: 0.1em;
+  margin-top: 1em;
 }
-
   .main-timeline3 .timeline:before,
   .main-timeline3 .timeline:nth-child(2n):before {
     box-shadow: none;

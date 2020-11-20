@@ -4,7 +4,8 @@
     <b-row>
       <b-col sm="4" v-for="item in items" v-bind:key="item.id">
         <div>
-         <div class="card" >
+
+       <!--  <div class="card" >
            <a :href="item.link">
   <img :src="item.image"  class="" alt="">
   </a>
@@ -13,7 +14,23 @@
     <p class="text">{{item.description}}</p>
 
   </div>
+</div>-->
+
+<b-container class="con">
+  <div class="card">
+<div class="imgBx">
+  <img :src="item.image" alt="">
 </div>
+
+<div class="content">
+  <h2>{{item.title}}</h2>
+  <p>{{item.description}}</p>
+</div>
+  </div>
+</b-container>
+
+
+
         </div>
       </b-col>
     </b-row>
@@ -66,71 +83,110 @@ export default {
 }
 </script>
 <style scoped>
-.container {
-  max-width: 100% !important;
-  width: 100%;
-
-}
 .title {
   color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: xxx-large;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
   margin-top: 1em;
 }
-.card{
-     background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
-}
-.title1 {
-  font-size: large;
-  color: red;
-  text-shadow: 0px 10px 10px #234D3C;
-  color: white;
-}
-.text{
-   font-size: large;
-  color: #fff;
-  text-shadow: 0px 10px 10px #234D3C;
+.con {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+  padding: 30px;
+
 }
 img {
-object-fit: cover;
-  width: 100% !important;
-  height: 15vh;
+    /* vertical-align: middle; */
+    /* border-style: none; */
+
+    object-fit: contain;
+    height: 4em;
+    width: 100%;
+
+}
+ .card{
+  position: relative;
+  max-width: 100%;
+  height: 100px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  box-shadow: 0 5px 202px rgba (0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+h2{
+  font-size: x-large;
+  font-weight: bolder;
+}
+p{
+  font-size: medium;
+}
+ .card:hover{
+  height: 250px ;
+}
+ .imgBx{
+  position: relative;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  top: -60px;
+  left: 13px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.con .card .imgBx img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+.con .card .content{
+  position: relative;
+  margin-top: -180px;
+  padding: 5px 10px;
+  text-align: center;
+  color: #111;;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -50px;
+  transition-delay: 0.3s;
 }
 
-.col-sm-4 {
-  margin-bottom: 2em;
-}
-h1 {
-  color: red;
-}
-.btn{
- background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));}
 @media only screen and (max-width: 768px) {
-  .container {
-    max-width: 95% !important;
- margin-top: -1em;
-  }
-  .card {
-  margin-bottom: 1em !important;
-  }
-  .title {
-    color: white;
-    font-family: Trattatello, fantasy;
-    font-variant: small-caps;
-    font-size: 1.5em;
-    font-stretch: extra-condensed;
-    margin-top: 0.2em;
+.con {
+  position: relative;
+  width: 100%;
+  display: flex;
 
-  }
-  .col-sm-4 {
-  margin-bottom: 0.5em;
+  padding: 10px;
+
 }
-  img {
-  height: 30% !important;
-  width: 100% !important;
+.imgBx{
+  position: relative;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  top: -60px;
+  left: 13px;
+  z-index: 1;
+
+}
+img {
+    /* vertical-align: middle; */
+    /* border-style: none; */
+
+    object-fit: contain;
+    height: 4em;
+    width: 100%;
+
 }
 }
 </style>

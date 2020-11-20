@@ -4,7 +4,7 @@
       <b-col sm="6" bg-red>
         <div class="description animate__animated animate__backInLeft">
           <span>{{ title }}</span>
-          <h1>{{ description }}</h1>
+          <h3>{{ description }}</h3>
           <p>{{ text }}</p>
           <a href="https://api.whatsapp.com/send?phone=2348137632165"
             >Let's Chat!</a
@@ -14,7 +14,7 @@
         <div class="combination">
           <div class="experience">
             <div class="head">
-              <h2>3</h2>
+              <h4>3</h4>
             </div>
             <div class="year">
               <small>YEARS EXPERIENCE</small>
@@ -23,7 +23,7 @@
 
           <div class="project">
             <div class="head1">
-              <h2>15</h2>
+              <h4>15</h4>
             </div>
             <div class="year1">
               <small>PROJECTS COMPLETED </small>
@@ -57,7 +57,7 @@ export default {
 
 <style scoped>
 .row {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 
 }
 .description {
@@ -74,9 +74,9 @@ span {
   font-weight: bold;
   border-radius: 0.4em;
 }
-h1 {
+h3 {
   color: white;
-  padding: 5px;
+  padding: 3px;
   margin-top: 0.5em;
   font-stretch: ultra-condensed;
   font-weight: 100;
@@ -96,9 +96,10 @@ h1 {
 }
 p {
   color: #dddddd;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-style: italic;
+  font-size: large;
   font-family: Snell Roundhand, cursive;
 }
 img {
@@ -111,9 +112,10 @@ img {
 
 a {
   color: #21bf73;
-  border-bottom: 3px solid #21bf73;
+  border-bottom: 1px solid #21bf73;
+  font-size: medium;
 }
-h2 {
+h4 {
   color: white !important;
   margin-top: 0.5em;
 }
@@ -129,7 +131,7 @@ small {
 }
 .year {
   font-size: small;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-left: 15px;
   font-style: italic;
   font-family: Snell Roundhand, cursive;
@@ -143,14 +145,14 @@ small {
 }
 .year1 {
   font-size: small;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-left: 15px;
   font-style: italic;
   font-family: Snell Roundhand, cursive;
 }
 .combination {
   display: flex;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 @media only screen and (max-width: 768px) {
   .description {

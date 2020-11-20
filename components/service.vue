@@ -23,8 +23,7 @@
 
         <b-col>
           <div class="side animate__animated animate__fadeInDown">
-            <small>introduce</small>
-            <h1> <code>Hello! I'm Aremu</code></h1>
+            <h3> <code>Hello! I'm Aremu</code></h3>
             <h4>
               <i>Every great design begin with an even better story</i>
             </h4>
@@ -89,26 +88,30 @@ export default {
 }
 h2 {
   font-size: large;
-  margin-top: 1rem;
+
 }
 h2:hover {
   color: #21bf73;
 }
 p {
-  font-size: medium;
+  font-size: small;
+  margin-bottom: 0em;
+}
+a{
+  font-size: small;
 }
 small {
   color: #eeeeee;
 }
-h1 {
+h3 {
   color: white;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
 }
 h4 {
   color: white;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-size: larger;
+  font-size: medium;
   font-style: oblique;
   font-weight: 600;
   font-variant: small-caps;
@@ -119,7 +122,7 @@ p.discription {
   font-size: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-size: large;
+  font-size: medium;
   font-style: italic;
   font-weight: 300;
   font-variant: normal;
@@ -160,7 +163,7 @@ span {
   .card-body {
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 0.7em;
+    padding: 0.6em;
     margin-top: 0.1em !important;
   }
   p {

@@ -54,11 +54,10 @@
   color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: xx-large;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
-  margin-top: 0.1em;
-
+  margin-bottom: 1em;
 }
 .testimonial {
   border-right: 4px solid #29d18b;
@@ -150,14 +149,14 @@ p.description {
   }
 }
 @media only screen and (max-width: 768px) {
- .title1{
-   color: white;
+ .title1 {
+  color: white;
   font-family: Trattatello, fantasy;
   font-variant: small-caps;
-  font-size: 2em;
+  font-size: x-large;
   font-stretch: extra-condensed;
   text-shadow: 0px 10px 10px #234D3C;
-  margin-top: 0.1em;
+  margin-top: 1em;
 }
 
 }

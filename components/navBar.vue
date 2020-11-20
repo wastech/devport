@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div >
+    <b-container>
     <b-navbar toggleable="lg" type="dark" variant="dark" class="fixed-top">
       <b-navbar-brand href="#"> WASTECH</b-navbar-brand>
 
@@ -27,6 +28,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+    </b-container>
   </div>
 </template>
 
@@ -81,9 +83,7 @@ a:hover {
   color: #21bf73 !important;
 }
 
-.container {
-  max-width: 90%;
-}
+
 @media only screen and (max-width: 768px) {
   .navbar-brand {
     font-size: small;
