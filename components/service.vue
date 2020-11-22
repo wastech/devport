@@ -141,16 +141,18 @@ span {
   h4 {
   color: white;
 
-  font-size: larger;
+  font-size: medium;
   font-style: oblique;
   font-weight: 600;
+  margin: 0em;
+  padding: 0em;
   font-variant: small-caps;
   font-stretch: ultra-condensed;
 }
   p.discription {
   color: white;
   font-size: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-  font-size: large;
+  font-size: medium;
   font-style: italic;
   font-weight: 300;
   font-variant: normal;
@@ -166,10 +168,7 @@ span {
     padding: 0.6em;
     margin-top: 0.1em !important;
   }
-  p {
-     margin-top: 0;
-     margin-bottom: 1rem !important;
-}
+
   .side[data-v-1e8b94ca] {
     text-align: left;
     margin-left: 0.5em !important;
@@ -199,5 +198,16 @@ span {
     font-variant: small-caps;
     font-family: Snell Roundhand, cursive;
   }
+  h3 {
+  color: white;
+  margin-top: 0.1em;
+}
+h3, .h3 {
+     font-size: 0em;
+}
+code{
+  font-size: xx-large;
+  font-weight: bold;
+}
 }
 </style>

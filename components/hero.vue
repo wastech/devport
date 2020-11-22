@@ -78,7 +78,9 @@ h3 {
   color: white;
   padding: 3px;
   margin-top: 0.5em;
+  text-align: left;
   font-stretch: ultra-condensed;
+  font-size: xx-large;
   font-weight: 100;
   color: white;
   text-shadow: 0 1px 0 #ccc,
@@ -169,6 +171,30 @@ small {
     font-weight: bold;
     border-radius: 0.4em;
   }
+  img{
+    display: none;
+  }
+  h3 {
+  color: white;
+
+  margin-top: 1.3em;
+  text-align: center;
+font-size: x-large;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
   h1 {
     color: white;
     padding: 5px;
@@ -182,16 +208,17 @@ small {
     color: #dddddd;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    font-style: italic;
     font-family: Snell Roundhand, cursive;
     font-weight: 100;
-    font-size: large;
+    font-size: medium;
+    text-align: center;
   }
   a {
     color: #21bf73;
     border-bottom: 1px solid #21bf73;
     font-weight: 500;
     font-size: medium;
+ display: none;
   }
   h2 {
     color: white !important;
@@ -233,6 +260,7 @@ small {
   .combination {
     display: flex;
     margin-top: 0.1em;
+    display: none;
     justify-content: space-around;
   }
   img {

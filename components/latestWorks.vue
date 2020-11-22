@@ -169,6 +169,15 @@ p{
   padding: 10px;
 
 }
+.title {
+  color: white;
+  font-family: Trattatello, fantasy;
+  font-variant: small-caps;
+  font-size: xx-large;
+  font-stretch: extra-condensed;
+  text-shadow: 0px 10px 10px #234D3C;
+  margin-top: 0em;
+}
 .imgBx{
   position: relative;
   width: 90%;

@@ -23,7 +23,7 @@
               <span class="year">2019</span>
             </div>
             <div class="timeline-content">
-              <h3 class="title">Professional Freelancer[Fiverr,Upwork,etc]</h3>
+              <h3 class="title">Professional Freelancer</h3>
               <p class="description">
                 I am working as a MEVN developer freelancer from last 2 years. I do the required task assigned by client to best of my abilities
               </p>

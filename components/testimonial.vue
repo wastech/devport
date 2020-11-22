@@ -158,6 +158,9 @@ p.description {
   text-shadow: 0px 10px 10px #234D3C;
   margin-top: 1em;
 }
+h3{
+  font-size: small;
+}
 
 }
 </style>
