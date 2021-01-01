@@ -172,7 +172,7 @@ span {
   .side[data-v-1e8b94ca] {
     text-align: left;
     margin-left: 0.5em !important;
-    margin-top: 2em;
+    margin-top: 3em;
   }
   small {
     color: white;
