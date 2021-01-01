@@ -33,7 +33,7 @@
       </b-col>
 
       <b-col sm="6">
-        <div class="image  animate__animated animate__backInRight">
+        <div class="image animate__animated animate__backInRight">
           <img
             src="https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg"
             alt
@@ -49,16 +49,16 @@ export default {
     return {
       title: 'Javascript Developer',
       description: 'talk is cheap. show the code',
-      text: 'I was responsible for building real life application web development and design, building backend APIs with nodejs framework and express library'
+      text:
+        'I was responsible for building real life application web development and design, building backend APIs with nodejs framework and express library',
     }
-  }
+  },
 }
 </script>
 
 <style scoped>
 .row {
   margin-bottom: 3em;
-
 }
 .description {
   margin-top: 7em;
@@ -83,18 +83,11 @@ h3 {
   font-size: xx-large;
   font-weight: 100;
   color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
 }
 p {
   color: #dddddd;
@@ -171,30 +164,23 @@ small {
     font-weight: bold;
     border-radius: 0.4em;
   }
-  img{
+  img {
     display: none;
   }
   h3 {
-  color: white;
+    color: white;
 
-  margin-top: 1.3em;
-  text-align: center;
-font-size: x-large;
-  font-weight: 500;
-  color: white;
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-}
+    margin-top: 1.3em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+      0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+      0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+  }
   h1 {
     color: white;
     padding: 5px;
@@ -218,7 +204,7 @@ font-size: x-large;
     border-bottom: 1px solid #21bf73;
     font-weight: 500;
     font-size: medium;
- display: none;
+    display: none;
   }
   h2 {
     color: white !important;
