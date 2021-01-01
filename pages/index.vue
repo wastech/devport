@@ -5,7 +5,7 @@
     <latestWorks />
     <experience />
     <testimonial />
-    <Footer />
+
   </div>
 </template>
 
@@ -15,7 +15,7 @@ const service = () => import('../components/service.vue')
 const latestWorks = () => import('../components/latestWorks.vue')
 const testimonial = () => import('../components/testimonial.vue')
 const experience = () => import('../components/experience.vue')
-const Footer = () => import('../components/Footer.vue')
+//const Footer = () => import('../components/Footer.vue')
 export default {
   components: {
     hero,
@@ -23,7 +23,7 @@ export default {
     latestWorks,
     testimonial,
     experience,
-    Footer
+   // Footer
   },
   data() {
     return {}

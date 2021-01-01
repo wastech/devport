@@ -17,7 +17,8 @@
 </div>-->
 
 <b-container class="con">
-  <div class="card">
+  <div class="card" >
+    <a :href="item.link">
 <div class="imgBx">
   <img :src="item.image" alt="">
 </div>
@@ -26,6 +27,7 @@
   <h2>{{item.title}}</h2>
   <p>{{item.description}}</p>
 </div>
+</a>
   </div>
 </b-container>
 
@@ -43,6 +45,13 @@ export default {
     return {
       items: [
         {
+          title: 'E-furniture',
+          image: '/nuxt.PNG',
+          link:'https://e-furniture.vercel.app/',
+          description:
+            'I developed a furniture store in a modern style using Vuejs , Expressjs, Node js',
+        },
+         {
           title: 'MEVN-Blog App',
           image: '/port1.PNG',
           link:'https://mevnblog.herokuapp.com/',
@@ -54,6 +63,12 @@ export default {
           image: '/port2.PNG',
           link:'http://devport.wastech.now.sh/',
           description:'dev-portfolio is a simple, minimal portfolio for developers, built with Vuejs',
+        },
+         {
+          title: 'vue-portfolio',
+          image: '/oldport.PNG',
+          link:'https://vueportfolio-three.vercel.app/',
+          description:' A portfolio built with  Vue js',
         },
         {
           title: 'chat-app',

@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <b-container fluid class="bv-example-row">
     <b-row>
       <b-col>
@@ -131,3 +131,4 @@ p.li:hover {
   }
 }
 </style>
+-->

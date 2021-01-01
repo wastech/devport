@@ -6,9 +6,12 @@
           <span>{{ title }}</span>
           <h3>{{ description }}</h3>
           <p>{{ text }}</p>
-          <a href="https://api.whatsapp.com/send?phone=2348137632165"
+          <a href="a href='https://wa.me/+2348137632165' "
+
             >Let's Chat!</a
+
           >
+
         </div>
 
         <div class="combination">
@@ -35,7 +38,7 @@
       <b-col sm="6">
         <div class="image animate__animated animate__backInRight">
           <img
-            src="https://cdn.pixabay.com/photo/2017/02/04/12/25/man-2037255_1280.jpg"
+            src="/aremu.jpg"
             alt
           />
         </div>
